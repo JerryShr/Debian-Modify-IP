@@ -22,7 +22,7 @@
 - 使用傳統 networking 服務（非 NetworkManager）
 
 ### 使用方法
-1-1. 繁体中文：Modify-IP_CN.sh 下载脚本：
+1-1. 繁体中文：Modify-IP_TW.sh 下载脚本：
 <blockquote>curl -fsSL https://github.com/JerryShr/Debian-Modify-IP/blob/main/Modify-IP_TW.sh</blockquote>
 <blockquote>chmod +x Modify-IP_TW.sh</blockquote>
 <blockquote>sudo ./Modify-IP_TW.sh</blockquote>
@@ -32,16 +32,16 @@
 <blockquote>chmod +x Modify-IP_CN.sh</blockquote>
 <blockquote>sudo ./Modify-IP_CN.sh</blockquote>
 
-1-3. 美式英語：Modify-IP_CN.sh 下载脚本：
+1-3. 美式英語：Modify-IP_US.sh 下载脚本：
 <blockquote>curl -fsSL https://github.com/JerryShr/Debian-Modify-IP/blob/main/Modify-IP_US.sh</blockquote>
 <blockquote>chmod +x Modify-IP_US.sh</blockquote>
 <blockquote>sudo ./Modify-IP_US.sh</blockquote>
 
 ### 依照提示操作：
-- 1. 查看目前網路配置
-- 2. 選擇配置模式（固定IP或浮動IP）
-- 3. 輸入網路參數（如選擇固定IP模式）
-- 4. 確認並套用配置
+1. 查看目前網路配置
+2. 選擇配置模式（固定IP或浮動IP）
+3. 輸入網路參數（如選擇固定IP模式）
+4. 確認並套用配置
 
 ### 恢復配置
 如果遇到問題，腳本會自動建立備份文件，您可以使用以下命令恢復原始配置：
