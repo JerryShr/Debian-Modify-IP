@@ -25,8 +25,8 @@
 
 1. 下载脚本：
    ```bash
-   git clone https://github.com/yourusername/debian-network-config.git
-   cd debian-network-config
+   curl -fsSL https://github.com/JerryShr/Debian-Modify-IP/blob/main/Modify-IP_CN.sh
+   sh Modify-IP_CN.sh
 根据您的语言偏好选择脚本：
 
 简体中文：Modify-IP_CN.sh
