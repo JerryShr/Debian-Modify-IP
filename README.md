@@ -24,23 +24,23 @@
 ### 使用方法
 
 1-1. 簡體中文：Modify-IP_CN.sh 下载脚本：
-   ```bash
+<blockquote>
    curl -fsSL https://github.com/JerryShr/Debian-Modify-IP/blob/main/Modify-IP_CN.sh
    chmod +x Modify-IP_CN.sh
-   sudo ./Modify-IP_CN.sh```
-   
+   sudo ./Modify-IP_CN.sh
+</blockquote>
 1-2. 繁体中文：Modify-IP_CN.sh 下载脚本：
-   ```bash
+<blockquote>
    curl -fsSL https://github.com/JerryShr/Debian-Modify-IP/blob/main/Modify-IP_TW.sh
    chmod +x Modify-IP_TW.sh
-   sudo ./Modify-IP_TW.sh```
-   
+   sudo ./Modify-IP_TW.sh
+</blockquote>
 1-3. 美式英語：Modify-IP_CN.sh 下载脚本：
-   ```bash
+<blockquote>
    curl -fsSL https://github.com/JerryShr/Debian-Modify-IP/blob/main/Modify-IP_US.sh
    chmod +x Modify-IP_US.sh
-   sudo ./Modify-IP_US.sh```
-
+   sudo ./Modify-IP_US.sh
+</blockquote>
 ### 依照提示操作：
 
 查看目前網路配置
