@@ -39,24 +39,12 @@
 <blockquote>sudo ./Modify-IP_US.sh</blockquote>
 
 ### 依照提示操作：
-
-查看目前網路配置
-
-選擇配置模式（固定IP或浮動IP）
-
-輸入網路參數（如選擇固定IP模式）
-
-確認並套用配置
-
-### 腳本選擇指南
-腳本名稱 語言 適用系統區域
-Modify-IP_CN.sh 簡體中文 中國大陸、新加坡等
-Modify-IP_TW.sh 繁體中文 台灣、香港、澳門等
-Modify-IP_US.sh 美式英語 美國及其他英語國家
+- 查看目前網路配置
+- 選擇配置模式（固定IP或浮動IP）
+- 輸入網路參數（如選擇固定IP模式）
+- 確認並套用配置
 
 ### 恢復配置
 如果遇到問題，腳本會自動建立備份文件，您可以使用以下命令恢復原始配置：
-
-bash
-sudo cp /etc/network/interfaces.<timestamp>.bak /etc/network/interfaces
-sudo systemctl restart networking
+<blockquote>sudo cp /etc/network/interfaces.<timestamp>.bak /etc/network/interfaces</blockquote>
+<blockquote>sudo systemctl restart networking</blockquote>
